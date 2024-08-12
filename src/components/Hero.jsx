@@ -4,7 +4,7 @@ import image1 from '../assets/image/logo.jpg'
 import { FaFacebook, FaTelegram } from 'react-icons/fa'
 function Hero() {
   return (
-    <div id='dog1' className='shadow-md bg-gradient-to-t from-gray-100 to-teal-50'>
+    <div id='dog1' className='shadow-md bg-gradient-to-t from-gray-50 to-gray-50'>
     <div className='text-center py-40 '>
     <div data-aos='fade-down'  className='flex justify-center'>
     <img class="w-[20vh] shadow-xl rounded-full mb-5 object-cover object-center spin" alt="hero" src={image1} />
