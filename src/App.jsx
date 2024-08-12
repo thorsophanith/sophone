@@ -1,16 +1,32 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import 'aos/dist/aos.css';
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Analytice from './components/Analytice'
-import ContactForm from './components/ContactForm'
+import Numhr from './components/Numhr'
+import Footer from './components/Footer'
+import Contact from './components/Contact'
+
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 700,
+      easing: "ease-in",
+      delay: 100,
+    });
+  });
   return (
-    <div>
+    <div className='bg-gray-50'>
       <Navbar />
       <Hero />
-      <Analytice />
-      <ContactForm />
+      <Analytice/>
+      <Numhr />
+      <Contact />
+      <Footer />
+
     </div>
   )
 }
