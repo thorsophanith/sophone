@@ -26,7 +26,7 @@ function Contact() {
   };
 
   return (
-    <div className='mt-6'>
+    <div className='mt-6' data-aos='fade-down'>
       <ToastContainer />
       <section className="text-gray-600 body-font relative max-w-7xl m-auto">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">

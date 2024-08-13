@@ -13,3 +13,21 @@
 .spin {
     animation: spin 35s linear infinite;
 }
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
+  .animated-background {
+    background: linear-gradient(-45deg, #dddddd84, #94d6f773, #4ecdc57b, #56cc9d6b);
+    background-size: 600% 600%;
+    animation: gradientAnimation 15s ease infinite;
+  }

@@ -11,20 +11,17 @@ function Numhr() {
             <div data-aos='fade-right' data-aos-delay='500' class="max-sm:w-[90%] max-md:w-[80%] grid text-center place-items-center gap-2 max-md:hover:shadow-lg p-8 duration-500 max-md:hover:scale-105 hover:max-md:bg-teal-50">
                 <img src={image1} alt="" class="w-[140px] md:w-[150px]" />
                 <p class="text-xl text-gray-600">Find a Value Plan</p>
-                <span class="text-gray-500">Find the perfect data plan for your needs.</span>
-                <p class="mt-4"><a href="" class="text-center border-2 border-blue-400 hover:bg-blue-500 hover:text-white duration-500 rounded-full px-5 py-2 text-gray-400">Contact Us</a></p>
+                <p class="mt-4"><a href="https://t.me/sophonspace1" class="text-center border-2 border-blue-400 hover:bg-blue-500 hover:text-white duration-500 rounded-full px-5 py-2 text-gray-400">Contact Us</a></p>
             </div>
-            <div data-aos='fade-down' data-aos-once='true' class="max-sm:w-[90%] max-md:w-[80%] grid text-center place-items-center gap-2 max-md:hover:shadow-lg p-8 duration-500 max-md:hover:scale-105 hover:max-md:bg-teal-50">
+            <div data-aos='fade-down'  class="max-sm:w-[90%] max-md:w-[80%] grid text-center place-items-center gap-2 max-md:hover:shadow-lg p-8 duration-500 max-md:hover:scale-105 hover:max-md:bg-teal-50">
                 <img src={image2} alt="" class="w-[140px] md:w-[150px]" />
                 <p class="text-xl text-gray-600">Online Top Up</p>
-                <span class="text-gray-500">Save on Top-Ups every time.</span>
-                <p class="mt-4"><a href="" class="text-center border-2 border-blue-400 hover:bg-blue-500 hover:text-white duration-500 rounded-full px-5 py-2 text-gray-400">Contact Us</a></p>
+                <p class="mt-4"><a href="https://t.me/sophonspace1" class="text-center border-2 border-blue-400 hover:bg-blue-500 hover:text-white duration-500 rounded-full px-5 py-2 text-gray-400">Contact Us</a></p>
             </div>
-            <div data-aos='fade-left' data-aos-once='true' data-aos-delay='500' class="max-sm:w-[90%] max-md:w-[80%] grid text-center place-items-center gap-2 max-md:hover:shadow-lg p-8 duration-500 max-md:hover:scale-105 hover:max-md:bg-teal-50">
+            <div data-aos='fade-left'  data-aos-delay='500' class="max-sm:w-[90%] max-md:w-[80%] grid text-center place-items-center gap-2 max-md:hover:shadow-lg p-8 duration-500 max-md:hover:scale-105 hover:max-md:bg-teal-50">
                 <img src={image3} alt="" class="w-[140px] md:w-[150px]" />
                 <p class="text-xl text-gray-600">See Promotions</p>
-                <span class="text-gray-500">Go ahead. You know you want to!</span>
-                <p id='dog3' class="mt-4"><a href="" class="text-center border-2 border-blue-400 hover:bg-blue-500 hover:text-white duration-500 rounded-full px-5 py-2 text-gray-400">Contact Us</a></p>
+                <p id='dog3' class="mt-4"><a href="https://t.me/sophonspace1" class="text-center border-2 border-blue-400 hover:bg-blue-500 hover:text-white duration-500 rounded-full px-5 py-2 text-gray-400">Contact Us</a></p>
             </div>
         </div>
     </div>
