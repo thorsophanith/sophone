@@ -12,7 +12,7 @@ function Footer() {
          
       <span class="ml-3 text-lg hover:text-teal-500 duration-500 text-gray-700">Sophon Space</span>
     </a>
-    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Sophon Space —
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 Sophon Space —
       <a href="https://t.me/sophonspace" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@SOPHONSPACE</a>
     </p>
     <span  class="inline-flex gap-5 sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start text-xl md:text-2xl">

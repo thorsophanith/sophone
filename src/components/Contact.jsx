@@ -45,10 +45,10 @@ function Contact() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
-            <div className="bg-white relative flex flex-wrap py-7 rounded shadow-md mr-8 ml-8 mt-3">
+            <div className="bg-white relative flex flex-wrap py-7 rounded shadow-md mr-8 ml-5 mt-3">
               <div className="lg:w-1/2 px-5">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                <p className="mt-1">No 285, Street No 271, Sangkat Tumnob Tuek, Khan Boeng Keng Kang, Phnom Penh</p>
+                <p className="mt-1 max-md:text-sm">No 285, Street No 271, Sangkat Tumnob Tuek, Khan Boeng Keng Kang, Phnom Penh</p>
               </div>
               <div className="lg:w-1/2 px-5 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>

@@ -48,13 +48,13 @@ function Navbar() {
         </div>
          
             <div className={!nav ? 'md:hidden z-50 fixed top-0 left-0 w-[60%] h-full bg-gray-100 *:duration-500 text-lg font-medium text-gray-600 *:drop-shadow-xl *:shadow-black duration-500' : 'fixed left-[-100%] duration-500'}>
-                <div className="p-4 py-10 text-lg font-serif flex items-center gap-2 text-teal-600 cursor-pointer ">
+                <div className="p-4 py-10 text-xl font-serif flex items-center gap-2 text-teal-600 cursor-pointer ">
                 <img src={image1} alt="" className="w-[40px] bg-gray-100 rounded-full"/>
                 Sophon Space</div>
-            <p  className="hover:bg-gray-200 p-4 hover:scale-90 hover:rounded-xl duration-700 hover:text-teal-500 cursor-pointer"><AnchorLink className="anchor-link" offset={900} href='#dog1'><a href="" onClick={() => setMenu("home")}    className=" hover:scale-90 px-10 text-base">Home</a></AnchorLink></p>
-            <p  className="hover:bg-gray-200 p-4 hover:scale-90 hover:rounded-xl duration-700 hover:text-teal-500 cursor-pointer"><AnchorLink className="anchor-link" offset={900} href='#dog2'><a href="" onClick={() => setMenu("about")}    className=" hover:scale-90 px-10 text-base">About Us</a></AnchorLink></p>
-            <p  className="hover:bg-gray-200 p-4 hover:scale-90 hover:rounded-xl duration-700 hover:text-teal-500 cursor-pointer"><AnchorLink className="anchor-link" offset={900} href='#dog3'><a href="" onClick={() => setMenu("team")}    className=" hover:scale-90 px-10 text-base">Resources</a></AnchorLink></p>
-            <p  className="hover:bg-gray-200 p-4 hover:scale-90 hover:rounded-xl duration-700 hover:text-teal-500 cursor-pointer"><AnchorLink className="anchor-link" offset={900} href='#dog5'><a href="" onClick={() => setMenu("contact")} className=" hover:scale-90 px-10 text-base">Contact</a></AnchorLink></p>
+            <p  className="hover:bg-gray-200 p-4 hover:scale-90 hover:rounded-xl duration-700 hover:text-teal-500 cursor-pointer"><AnchorLink className="anchor-link" offset={900} href='#dog1'><a href="" onClick={() => setMenu("home")}    className=" hover:scale-90 px-10 text-[17px]">Home</a></AnchorLink></p>
+            <p  className="hover:bg-gray-200 p-4 hover:scale-90 hover:rounded-xl duration-700 hover:text-teal-500 cursor-pointer"><AnchorLink className="anchor-link" offset={900} href='#dog2'><a href="" onClick={() => setMenu("about")}    className=" hover:scale-90 px-10 text-[17px]">About Us</a></AnchorLink></p>
+            <p  className="hover:bg-gray-200 p-4 hover:scale-90 hover:rounded-xl duration-700 hover:text-teal-500 cursor-pointer"><AnchorLink className="anchor-link" offset={900} href='#dog3'><a href="" onClick={() => setMenu("team")}    className=" hover:scale-90 px-10 text-[17px]">Resources</a></AnchorLink></p>
+            <p  className="hover:bg-gray-200 p-4 hover:scale-90 hover:rounded-xl duration-700 hover:text-teal-500 cursor-pointer"><AnchorLink className="anchor-link" offset={900} href='#dog5'><a href="" onClick={() => setMenu("contact")} className=" hover:scale-90 px-10 text-[17px]">Contact</a></AnchorLink></p>
         </div>
         </div>
       </div>

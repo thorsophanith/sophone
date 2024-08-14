@@ -31,3 +31,9 @@
     background-size: 600% 600%;
     animation: gradientAnimation 15s ease infinite;
   }
+  .animated {
+    background: linear-gradient(-45deg, #d74bf09e, #3936e8a2, #1ff2d9a0, #3bf2388b);
+    background-size: 600% 600%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+
