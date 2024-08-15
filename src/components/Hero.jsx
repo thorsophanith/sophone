@@ -6,7 +6,7 @@ import { FaFacebook, FaTelegram } from 'react-icons/fa';
 function Hero() {
   return (
     <div id='dog1' className='shadow-md bg-gradient-to-t from-gray-50 to-gray-50 animated-background' data-aos='fade-down'> 
-      <div className='text-center py-40'>
+      <div className='text-center max-sm:py-32 py-40'>
         <div data-aos='fade-down' className='flex justify-center'> 
           <img
             className="w-[20vh] shadow-xl rounded-full mb-5 object-cover object-center" 
@@ -14,7 +14,6 @@ function Hero() {
             src={image1}
           />
         </div>
-        <p className='uppercase text-teal-600 font-serif'>we are hiring!</p>
         <h1 className='text-4xl md:text-6xl mb-5 font-bold text-teal-500 drop-shadow-2xl shadow-black'>
           <span data-aos='fade-left'>Sophon </span>
           <span data-aos='fade-right'>Space</span>

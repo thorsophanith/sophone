@@ -26,7 +26,7 @@ function Contact() {
   };
 
   return (
-    <div className='mt-6' data-aos='fade-down'>
+    <div className='mt-6' data-aos='fade-down' data-aos-delay='300'>
       <ToastContainer />
       <section className="text-gray-600 body-font relative max-w-7xl m-auto">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -59,14 +59,12 @@ function Contact() {
             </div>
           </div>
           <div
-            data-aos='fade-left'
-            data-aos-once='true'
             className="rounded-lg lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
           >
             <form ref={form} onSubmit={sendEmail} className='p-3'>
               <h2 className="text-gray-900 text-lg mb-1 font-medium title-font text-center">Contact Us</h2>
               <p className="leading-relaxed mb-5 text-gray-600"></p>
-              <div className="relative mb-4">
+              <div data-aos='fade-down' data-aos-delay='600' className="relative mb-4">
                 <label className="leading-7 text-sm text-gray-600">Name</label>
                 <input
                   type="text"
@@ -76,7 +74,7 @@ function Contact() {
                   className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
-              <div className="relative mb-4">
+              <div data-aos='fade-down' data-aos-delay='400' className="relative mb-4">
                 <label className="leading-7 text-sm text-gray-600">Email</label>
                 <input
                   type="email"
@@ -86,7 +84,7 @@ function Contact() {
                   className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
-              <div className="relative mb-4">
+              <div data-aos='fade-down' data-aos-delay='200' className="relative mb-4">
                 <label className="leading-7 text-sm text-gray-600">Message</label>
                 <textarea
                   name="message"

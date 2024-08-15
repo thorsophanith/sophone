@@ -12,10 +12,10 @@ import Contact from './components/Contact'
 function App() {
   useEffect(() => {
     AOS.init({
-      offset: 100,
+      offset: 200,
       duration: 700,
       easing: "ease-in",
-      delay: 100,
+      delay: 200,
     });
   });
   return (
