@@ -6,8 +6,8 @@ function Analytice() {
     <div className='py-20' data-aos='fade-down'>
         <h1 data-aos='fade-down' data-aos-once='true' className='text-center text-3xl md:text-4xl mb-16 font-bold text-teal-500'>About Us</h1>
         <div className='max-w-7xl m-auto grid grid-cols-1 md:grid-cols-2 gap-10 p-5'>
-        <div  className=''>
-            <img src={image1} alt="" className='rounded-md'/>
+        <div data-aos='fade-right' data-aos-delay='500' className=''>
+            <img src={image1} alt="" className='rounded-md'  />
         </div>
         <div className='max-md:text-center'>
             <h1 data-aos='fade-down' data-aos-delay='600' className='text-2xl md:text-xl lg:text-3xl font-medium text-teal-500 drop-shadow-2xl shadow-black mb-3'>SOPHON SPACE MEDIA CO.,LTD was established in 2023.</h1>

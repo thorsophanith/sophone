@@ -29,7 +29,7 @@ function Hero() {
             />
           </p>
           <p className='mt-2 text-lg text-gray-400 px-4'>
-            Bachelor’s degree in computer science, computer engineering, or information technology.
+          We provide quality service to you. We are welcome your attention.
           </p>
         </div>
         <div className='mt-12 flex gap-5 justify-center'>
