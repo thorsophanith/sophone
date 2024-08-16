@@ -22,7 +22,7 @@ function Hero() {
           <p className='text-2xl md:text-4xl font-medium font-serif text-gray-400'>
             <ReactTyped
               className='text-blue-600'
-              strings={["Welcome To", "Sophon Space", "Company"]}
+              strings={["Welcome To", "Sophon Space"]}
               typeSpeed={150}
               backSpeed={150}
               loop
