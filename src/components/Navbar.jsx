@@ -6,7 +6,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
  
 
 function Navbar() {
-    const [setMenu] = useState("home");
+    const [menu ,setMenu] = useState("home");
     const [nav, setNav] = useState(true);
     
     const handleNav = () => {
@@ -38,16 +38,16 @@ function Navbar() {
           <h1 className="font-bold font-serif text-lg md:text-2xl text-teal-500 drop-shadow-xl shadow-black">Sophon Space</h1>
         </div>
         <div className="max-md:hidden *:text-[18px] *:text-gray-400 *:duration-500 *:lg:text-[19px] flex gap-3 md:gap-5 font-medium">
-            <p data-aos='fade-down' data-aos-once='true' data-aos-delay='200'><AnchorLink className="anchor-link " offset={900} href='#dog1'><a href="" onClick={() => setMenu("home")} className="hover:text-teal-500 hover:scale-90">Home</a></AnchorLink></p>
-            <p data-aos='fade-down' data-aos-once='true' data-aos-delay='300'><AnchorLink className="anchor-link " offset={900} href='#dog2'><a href="" onClick={() => setMenu("about")} className="hover:text-teal-500 hover:scale-90">About Us</a></AnchorLink></p>
-            <p data-aos='fade-down' data-aos-once='true' data-aos-delay='400'><AnchorLink className="anchor-link " offset={900} href='#dog3'><a href="" onClick={() => setMenu("team")} className="hover:text-teal-500 hover:scale-90">Service</a></AnchorLink></p>
-            <p data-aos='fade-down' data-aos-once='true' data-aos-delay='500'><AnchorLink className="anchor-link " offset={900} href='#dog5'><a href="" onClick={() => setMenu("contact")} className="hover:text-teal-500 hover:scale-90">Contact</a></AnchorLink></p>
+            <p data-aos='fade-down' data-aos-once='true' data-aos-delay='200'><AnchorLink className="anchor-link " offset={900} href='#dog1'><a href="" onClick={() => setMenu("home")} className="hover:text-teal-500 hover:scale-90">Home</a> {menu==="home"? <img src={image1} className="w-full h-[2px] bg-teal-400 rounded-2xl"/> :<></> }</AnchorLink></p>
+            <p data-aos='fade-down' data-aos-once='true' data-aos-delay='300'><AnchorLink className="anchor-link " offset={900} href='#dog2'><a href="" onClick={() => setMenu("about")} className="hover:text-teal-500 hover:scale-90">About Us</a> {menu==="about"? <img src={image1} className="w-full h-[2px] bg-teal-400 rounded-2xl"/> :<></> }</AnchorLink></p>
+            <p data-aos='fade-down' data-aos-once='true' data-aos-delay='400'><AnchorLink className="anchor-link " offset={900} href='#dog3'><a href="" onClick={() => setMenu("team")} className="hover:text-teal-500 hover:scale-90">Service</a> {menu==="team"? <img src={image1} className="w-full h-[2px] bg-teal-400 rounded-2xl"/> :<></> }</AnchorLink></p>
+            <p data-aos='fade-down' data-aos-once='true' data-aos-delay='500'><AnchorLink className="anchor-link " offset={900} href='#dog5'><a href="" onClick={() => setMenu("contact")} className="hover:text-teal-500 hover:scale-90">Contact</a> {menu==="contact"? <img src={image1} className="w-full h-[2px] bg-teal-400 rounded-2xl"/> :<></> }</AnchorLink></p>
         </div>
         <div onClick={handleNav} className="block md:hidden cursor-pointer">
             {!nav ? <AiOutlineClose size={25} className="text-gray-600 hover:scale-90 duration-300"/> : <AiOutlineMenu size={25} className="text-gray-600 hover:scale-90 duration-300"/>}
         </div>
          
-            <div className={!nav ? 'md:hidden z-50 fixed top-0 left-0 w-[60%] h-full bg-gray-100 *:duration-500 text-lg font-medium text-gray-600 *:drop-shadow-xl *:shadow-black duration-500' : 'fixed left-[-100%] duration-500'}>
+            <div className={!nav ? 'md:hidden z-50 fixed top-0 left-0 w-[60%] h-[100vh] bg-gray-100 *:duration-500 text-lg font-medium text-gray-600 *:drop-shadow-xl *:shadow-black duration-1000' : 'fixed left-[-100%] duration-300'}>
                 <div className="p-4 py-10 text-xl font-serif flex items-center gap-2 text-teal-600 cursor-pointer">
                 <img src={image1} alt="" className="w-[40px] bg-gray-100 rounded-full"/>
                 Sophon Space</div>
