@@ -47,7 +47,7 @@ function Navbar() {
             {!nav ? <AiOutlineClose size={25} className="text-gray-600 hover:scale-90 duration-300"/> : <AiOutlineMenu size={25} className="text-gray-600 hover:scale-90 duration-300"/>}
         </div>
          
-            <div className={!nav ? 'md:hidden z-50 fixed top-0 left-0 w-[60%] h-[100vh] bg-gray-100 *:duration-500 text-lg font-medium text-gray-600 *:drop-shadow-xl *:shadow-black duration-1000' : 'fixed left-[-100%] duration-300'}>
+            <div className={!nav ? 'md:hidden z-50 fixed top-0 left-0 w-[60%] h-[100vh] bg-gray-100 *:duration-500 text-lg font-medium text-gray-600 *:drop-shadow-xl *:shadow-black duration-700' : 'fixed left-[-100%] duration-300'}>
                 <div className="p-4 py-10 text-xl font-serif flex items-center gap-2 text-teal-600 cursor-pointer">
                 <img src={image1} alt="" className="w-[40px] bg-gray-100 rounded-full"/>
                 Sophon Space</div>
